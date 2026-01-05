@@ -1,0 +1,79 @@
+[workspace]
+authors = ["nmarticorena <nicolas.marticorena.vidal@gmail.com>"]
+channels = ["conda-forge"]
+description = ""
+name = "remo_splat"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[activation]
+scripts=["pytorch_fix.sh"]
+
+[tasks]
+
+[pypi-options]
+no-build-isolation = true
+
+[system-requirements]
+cuda="12.0"
+
+[dependencies]
+scikit-build = "*"
+cuda = "*"
+cuda-runtime = "*"
+pytorch = { build = "cuda120*" }
+python = "*"
+setuptools = "*"
+warp-lang = { build = "cuda120*" }
+numpy = "*"
+spatialmath-python = "*"
+roboticstoolbox-python = "*"
+pandas = "*"
+trimesh = "*"
+plyfile = "*"
+seaborn = "*"
+glm = "*"
+opencv = "*"
+tensorboard = "*"
+torchmetrics = "*"
+scikit-learn = "*"
+tensorly = "*"
+torchvision = "*"
+pip = "*"
+ruff = "*"
+pyright = "*"
+hatch = "*"
+scipy = "*"
+meshio = "*"
+pdbpp = "*"
+pycollada = "*"
+pybind11-stubgen = "*"
+websockets = "12.*"
+kornia = ">=0.7.4,<0.8"
+einops = ">=0.8.0,<0.9"
+zarr = ">=2.18.4,<3"
+openpyxl = ">=3.1.5,<4"
+ipython = ">=9.0.2,<10"
+snakeviz = ">=2.2.2,<3"
+tqdm = ">=4.67.1,<5"
+daqp = ">=0.7.1,<0.8"
+splines = ">=0.3.3,<0.4"
+
+
+[pypi-dependencies]
+remo_splat = {path = ".", editable = true}
+gsplat = {path = "./deps/gsplat/", editable = true}
+safer-splat = {path = "./deps/safer-splat/", editable = true}
+pycolmap= {git = "https://github.com/nmarticorena/pycolmap"}
+fused_ssim= {git="https://github.com/rahul-goel/fused-ssim.git", rev="1272e21a282342e89537159e4bad508b19b34157"}
+neural_robot = {path = "./deps/neural_robot/", editable = true}
+nerf_tools = {path = "./deps/nerf_tools/", editable = true}
+nerfview = "*"
+aiortc = "~=1.8"
+ipdb = "*"
+pyjoystick = "*"
+pyglet = "*"
+open3d = "==0.18.0"
+viser = "*"
+ruckig = ">=0.14.0, <0.15"
+tyro= "*"

@@ -1,0 +1,8 @@
+[project]
+name = "remo_splat"
+version = "0.1.0"
+description = "Reactive Mobile Manipulation Control on a Gaussian Splat"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

@@ -1,0 +1,7 @@
+# GitHub syntax highlighting
+pixi.lock linguist-language=YAML linguist-generated=true
+
+*.ipynb filter=nbstripout
+*.zpln filter=nbstripout
+*.ipynb diff=ipynb
+

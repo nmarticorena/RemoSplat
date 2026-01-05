@@ -1,0 +1,14 @@
+[submodule "deps/gsplat"]
+	path = deps/gsplat
+	url = git@github.com:nmarticorena/gsplat.git
+	branch = fix-depth
+[submodule "deps/safer-splat"]
+	path = deps/safer-splat
+	url = git@github.com:nmarticorena/safer-splat.git
+[submodule "deps/neural_robot"]
+	path = deps/neural_robot
+	url = git@github.com:nmarticorena/neural_robot.git
+	branch = feat-gaussian-distance
+[submodule "deps/netf_tools"]
+	path = deps/nerf_tools
+	url = git@github.com:nmarticorena/nerf_tools.git

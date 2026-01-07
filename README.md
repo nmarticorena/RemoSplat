@@ -1,6 +1,19 @@
-# ReMoSPLAT: Reactive Mobile Manipulation Control on a Gaussian Splat
+# 
+<p align="center">
 
-[![Dataset on HF](https://huggingface.co/datasets/huggingface/badges/resolve/main/dataset-on-hf-xl.svg)](https://huggingface.co/datasets/nmarticorena/ReMoSplat-scenes)
+  <h1 align="center"> ReMoSPLAT: Reactive Mobile Manipulation Control on a Gaussian Splat</h1>
+  <p align="center"> 
+    <a href="https://nmarticorena.github.io/"><strong>Nicolas Marticorena</strong></a>
+    ·
+    <a href="https://www.tobiasfischer.info/"><strong>Tobias Fischer</strong></a>
+    ·
+    <a href="https://nikosuenderhauf.github.io/"><strong>Niko Suenderhauf</strong></a>
+    .
+  </p>
+  <p align="center"><strong>Queensland University of Technology</strong></p>
+  <h3 align="center"><a href= "https://arxiv.org/abs/2512.09656">arXiv</a> | <a href="https://huggingface.co/datasets/nmarticorena/ReMoSplat-scenes">Dataset</a></h3>
+  <div align="center"></div>
+</p>
 
 ## Dependencies
 
